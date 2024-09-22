@@ -1,0 +1,16 @@
+name = White Doctor
+Top = 262/0
+Undershirt = 152/0
+Legs = 106/3
+Feet = 58/9
+Accessories = 96/0
+Bags = 44/0
+Mask = 0/0
+Gloves = 27/0
+Decals = 10/0
+Armor = 29/8
+Hats = 59/8
+Glasses = -1/-1
+Ears = 14/0
+Watches = -1/-1
+Bracelets = -1/-1

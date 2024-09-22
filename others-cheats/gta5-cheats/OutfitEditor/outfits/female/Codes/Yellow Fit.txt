@@ -1,0 +1,16 @@
+name = Yellow Fit
+Top = 247/5
+Undershirt = 152/0
+Legs = 102/5
+Feet = 27/0
+Accessories = 0/0
+Bags = 82/2
+Mask = 166/1
+Gloves = 15/0
+Decals = 0/0
+Armor = 29/9
+Hats = 38/0
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

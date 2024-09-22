@@ -1,0 +1,16 @@
+name = Jean Baddie
+Top = 171/1
+Undershirt = 159/0
+Legs = 63/3
+Feet = 1/7
+Accessories = 23/0
+Bags = 31/0
+Mask = 0/0
+Gloves = 153/0
+Decals = 11/6
+Armor = 0/0
+Hats = -1/-1
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

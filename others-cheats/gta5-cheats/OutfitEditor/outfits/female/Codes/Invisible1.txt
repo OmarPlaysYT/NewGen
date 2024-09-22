@@ -1,0 +1,16 @@
+name = Invisible
+Top = 260/0
+Undershirt = 152/0
+Legs = 61/-8
+Feet = 49/0
+Accessories = 0/0
+Bags = 0/0
+Mask = 0/0
+Gloves = 13/0
+Decals = 36/0
+Armor = 0/0
+Hats = 117/0
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

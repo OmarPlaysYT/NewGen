@@ -1,0 +1,16 @@
+name = Rainbow Undercover
+Top = 303/0
+Undershirt = 79/0
+Legs = 59/3
+Feet = 55/4
+Accessories = 128/0
+Bags = 86/13
+Mask = 174/14
+Gloves = 111/0
+Decals = 73/0
+Armor = 0/0
+Hats = 142/22
+Glasses = 30/6
+Ears = -1/-1
+Watches = 28/-1
+Bracelets = -1/-1

@@ -1,0 +1,16 @@
+name = Orange Vest
+Top = 128/9
+Undershirt = 181/0
+Legs = 59/1
+Feet = 9/11
+Accessories = 112/2
+Bags = 81/5
+Mask = 52/0
+Gloves = 19/0
+Decals = 0/0
+Armor = 0/0
+Hats = 59/1
+Glasses = 25/7
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

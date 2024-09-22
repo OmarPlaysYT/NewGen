@@ -1,0 +1,16 @@
+name = White Runner
+Top = 178/7
+Undershirt = 122/0
+Legs = 59/8
+Feet = 55/8
+Accessories = 125/0
+Bags = 82/16
+Mask = 174/23
+Gloves = 110/3
+Decals = 0/0
+Armor = 18/8
+Hats = 59/8
+Glasses = 25/4
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

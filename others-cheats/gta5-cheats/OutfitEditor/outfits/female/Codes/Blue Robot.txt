@@ -1,0 +1,16 @@
+name = Blue Robot
+Top = 287/1
+Undershirt = 189/0
+Legs = 136/0
+Feet = 87/1
+Accessories = 95/0
+Bags = 81/1
+Mask = 0/0
+Gloves = 8/0
+Decals = 11/6
+Armor = 29/5
+Hats = 59/5
+Glasses = -1/-1
+Ears = 14/0
+Watches = -1/-1
+Bracelets = -1/-1

@@ -1,0 +1,16 @@
+name = Blacked Out
+Top = 53/0
+Undershirt = 129/0
+Legs = 59/9
+Feet = 24/0
+Accessories = 112/2
+Bags = 82/0
+Mask = 55/0
+Gloves = 96/0
+Decals = 11/4
+Armor = 0/0
+Hats = 39/0
+Glasses = 25/4
+Ears = -1/-1
+Watches = 28/0
+Bracelets = -1/-1

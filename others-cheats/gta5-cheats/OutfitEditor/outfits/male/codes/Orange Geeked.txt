@@ -1,0 +1,16 @@
+name = Orange Geeked
+Top = 0/-2
+Undershirt = 129/0
+Legs = 84/2
+Feet = 33/0
+Accessories = 133/0
+Bags = 82/5
+Mask = 118/1
+Gloves = 110/9
+Decals = 12/1
+Armor = 53/0
+Hats = 118/2
+Glasses = 25/6
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

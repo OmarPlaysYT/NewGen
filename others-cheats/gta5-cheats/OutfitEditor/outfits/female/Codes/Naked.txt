@@ -1,0 +1,16 @@
+name = Naked
+Top = 260/0
+Undershirt = 0/-1
+Legs = 15/0
+Feet = 35/0
+Accessories = 0/0
+Bags = 0/0
+Mask = 0/0
+Gloves = 15/0
+Decals = 0/0
+Armor = 0/0
+Hats = -1/-1
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

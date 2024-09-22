@@ -1,0 +1,16 @@
+name = Green Monster
+Top = 180/1
+Undershirt = 159/0
+Legs = 61/0
+Feet = 27/0
+Accessories = 2/1
+Bags = 85/3
+Mask = 0/0
+Gloves = 127/8
+Decals = 10/1
+Armor = 0/0
+Hats = 59/0
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

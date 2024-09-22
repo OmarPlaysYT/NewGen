@@ -1,0 +1,16 @@
+name = Puple Vibe
+Top = 128/2
+Undershirt = 22/4
+Legs = 59/2
+Feet = 55/3
+Accessories = 125/0
+Bags = 82/6
+Mask = 174/17
+Gloves = 110/10
+Decals = 11/1
+Armor = 17/2
+Hats = 59/2
+Glasses = 23/2
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

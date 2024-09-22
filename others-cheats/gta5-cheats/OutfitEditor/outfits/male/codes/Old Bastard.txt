@@ -1,0 +1,16 @@
+name = Old Bastard
+Top = 234/3
+Undershirt = 122/0
+Legs = 171/0
+Feet = 134/0
+Accessories = 112/1
+Bags = 81/15
+Mask = 200/0
+Gloves = 145/3
+Decals = 150/0
+Armor = 57/0
+Hats = 183/0
+Glasses = 15/0
+Ears = -1/-1
+Watches = 1/0
+Bracelets = -1/-1

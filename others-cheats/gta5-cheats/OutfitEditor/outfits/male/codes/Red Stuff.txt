@@ -1,0 +1,16 @@
+name = Red Stuff
+Top = 153/21
+Undershirt = 130/0
+Legs = 128/12
+Feet = 77/11
+Accessories = 133/0
+Bags = 85/12
+Mask = 174/7
+Gloves = 96/0
+Decals = 0/0
+Armor = 11/1
+Hats = 143/3
+Glasses = 46/2
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

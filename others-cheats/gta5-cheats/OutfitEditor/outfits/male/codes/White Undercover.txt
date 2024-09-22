@@ -1,0 +1,16 @@
+name = White Undercover
+Top = 302/2
+Undershirt = 78/2
+Legs = 59/8
+Feet = 26/2
+Accessories = 125/0
+Bags = 82/25
+Mask = 52/2
+Gloves = 79/0
+Decals = 11/1
+Armor = 18/8
+Hats = 59/9
+Glasses = 24/2
+Ears = -1/-1
+Watches = 14/0
+Bracelets = -1/-1

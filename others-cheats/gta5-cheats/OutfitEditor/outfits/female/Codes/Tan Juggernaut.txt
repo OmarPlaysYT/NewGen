@@ -1,0 +1,16 @@
+name = Tan Juggernaut
+Top = 180/8
+Undershirt = 191/0
+Legs = 61/7
+Feet = 58/8
+Accessories = 24/0
+Bags = 40/0
+Mask = 104/25
+Gloves = 127/3
+Decals = 10/1
+Armor = 18/0
+Hats = 59/7
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

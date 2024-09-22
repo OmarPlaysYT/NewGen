@@ -1,0 +1,16 @@
+name = Pink Alien
+Top = 287/13
+Undershirt = 159/0
+Legs = 61/3
+Feet = 48/6
+Accessories = 25/0
+Bags = 40/0
+Mask = 134/13
+Gloves = 127/6
+Decals = 79/0
+Armor = 54/0
+Hats = 59/3
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

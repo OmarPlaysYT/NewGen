@@ -1,0 +1,16 @@
+name = Tan Baddie
+Top = 262/3
+Undershirt = 152/0
+Legs = 56/2
+Feet = 2/0
+Accessories = 95/0
+Bags = 40/0
+Mask = 0/0
+Gloves = 16/1
+Decals = 0/0
+Armor = 23/7
+Hats = 59/7
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

@@ -1,0 +1,16 @@
+name = White Fisher
+Top = 261/2
+Undershirt = 2/0
+Legs = 100/2
+Feet = 1/0
+Accessories = 0/0
+Bags = 82/16
+Mask = 166/0
+Gloves = 88/0
+Decals = 10/5
+Armor = 24/8
+Hats = 63/8
+Glasses = 27/4
+Ears = -1/-1
+Watches = 9/1
+Bracelets = -1/-1

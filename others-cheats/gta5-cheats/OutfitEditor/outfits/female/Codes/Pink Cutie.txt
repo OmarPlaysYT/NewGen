@@ -1,0 +1,16 @@
+name = Pink Cutie
+Top = 145/11
+Undershirt = 81/5
+Legs = 90/23
+Feet = 47/9
+Accessories = 23/1
+Bags = 81/7
+Mask = 36/0
+Gloves = 127/11
+Decals = 10/4
+Armor = 26/3
+Hats = 59/3
+Glasses = -1/-1
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

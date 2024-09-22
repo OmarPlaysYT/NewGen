@@ -1,0 +1,16 @@
+name = Bad Bunny
+Top = 324/2
+Undershirt = 193/4
+Legs = 84/8
+Feet = 67/1
+Accessories = 112/0
+Bags = 41/0
+Mask = 165/0
+Gloves = 88/1
+Decals = 0/0
+Armor = 16/0
+Hats = -1/-1
+Glasses = 46/2
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

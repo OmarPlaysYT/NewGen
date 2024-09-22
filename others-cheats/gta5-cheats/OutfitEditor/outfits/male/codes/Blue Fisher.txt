@@ -1,0 +1,16 @@
+name = Blue Fisher
+Top = 96/0
+Undershirt = 15/0
+Legs = 97/8
+Feet = 7/0
+Accessories = 125/0
+Bags = 82/1
+Mask = 174/6
+Gloves = 134/0
+Decals = 0/0
+Armor = 0/0
+Hats = 104/10
+Glasses = 25/3
+Ears = -1/-1
+Watches = -1/-1
+Bracelets = -1/-1

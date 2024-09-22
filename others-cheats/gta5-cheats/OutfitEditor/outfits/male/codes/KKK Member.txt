@@ -1,0 +1,16 @@
+name = KKK Member
+Top = 143/7
+Undershirt = 122/0
+Legs = 59/7
+Feet = 101/0
+Accessories = 125/0
+Bags = 81/17
+Mask = 36/0
+Gloves = 102/7
+Decals = 11/1
+Armor = 15/0
+Hats = 1/0
+Glasses = 24/5
+Ears = -1/-1
+Watches = 28/0
+Bracelets = -1/-1
