@@ -25,7 +25,7 @@ footer {
 .footer-column ul {
     list-style-type: none;
     padding: 0;
-    font-family:  American;
+    font-family:  Tommy;
 }
 
 .footer-column ul li {
@@ -87,7 +87,7 @@ footer {
     border-top: 1px solid #555;
     padding-top: 20px;
     text-align: center;
-    font-family:  American;
+    font-family: Tommy;
 }
 
 .footer-bottom p {
@@ -108,12 +108,8 @@ footer {
 .footer-links a:hover {
     color: #fff;
 }
-        @font-face {
-        font-family: Tommy;
-        src: url(/fonts/Tommy.otf);
-        }
 p {
     font-size: 1em;
     color: #ffffff;
-    font-family: Tommy;
+    font-family:  American;
 }
