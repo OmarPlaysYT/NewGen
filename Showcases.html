@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="OmarPlays,OmarPlays Mod, OmarPlays Menu, OmarPlays Mod Menu, GTA Cheat">
+    <meta name="description" content="Unlock powerful features and dominate with our cutting-edge cheat software, OmarPlays. Easy to install, regularly updated, and designed for elite gamers. Transform your play today!">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/OP_logo.png">
+    <title>OmarPlays - Showcases</title>
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        .video-frame {
+            width: 512px;
+            height: 288px;
+            border-radius: 25px;
+        }
+        .nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .nav-button.left {
+            left: 10%;
+        }
+        .nav-button.right {
+            right: 10%;
+        }
+        .counter {
+            text-align: center;
+            position: inherit;
+            margin-top: 20px;
+            margin-left: 50%;
+        }
+        .CounterTXT {
+            font-family:cursive
+        }
+    </style>
+</head>
+<body>
+    <div class="Banner">
+        <div class="navbar">
+            <a href="https://omarmenu.xyz/">
+                <img class="Logo" src="images/OP_Text.png" alt="OP Logo"></a>
+            <ul>
+                <li><a href="https://omarmenu.xyz/">Home</a></li>
+                    <li><a href="https://omarmenu.xyz/Logs">Update Logs</a></li>
+                    <li><a href="https://omarmenu.xyz/Showcases">Showcases</a></li>
+                <li><a href="https://discord.gg/omarcheats" target="_blank">Discord</a></li>
+            </ul>
+        </div>
+        <div class="contentShowcases">
+            <h1>Video Showcases:</h1>
+            <p>Contact us for a partnership.</p>
+            <div class="video-container">
+                <iframe id="youtube-video" class="video-frame" src="https://www.youtube.com/embed/BCdITuYRNB4?enablejsapi=1" style="box-shadow: 0px 0px 20px #ffacf1d8;" frameborder="0" allowfullscreen></iframe>
+                <button class="nav-button left" onclick="previousVideo()" style="box-shadow: 0px 0px 20px #ffacf180;">🢀</button>
+                <button class="nav-button right" onclick="nextVideo()" style="box-shadow: 0px 0px 20px #ffacf18a;">🢂</button>
+            </div>
+            <div class="counter">
+                <span class="CounterTXT" id="video-counter">1/3</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 OmarPlays. All Rights Reserved.</p>
+    </div>
+    <script>
+        // List of YouTube video IDs
+        const videoIds = ['BCdITuYRNB4', '1aCSt5ypDFs', '07iYPHruaqM'];
+        let currentIndex = 0;
+
+        // Load the YouTube IFrame Player API
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('youtube-video', {
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            // Video player is ready
+            updateCounter();
+        }
+
+        function loadVideo(index) {
+            if (player && player.loadVideoById) {
+                player.loadVideoById(videoIds[index]);
+            } else {
+                document.getElementById('youtube-video').src = `https://www.youtube.com/embed/${videoIds[index]}?enablejsapi=1`;
+            }
+            updateCounter();
+        }
+
+        function previousVideo() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                loadVideo(currentIndex);
+            }
+        }
+
+        function nextVideo() {
+            if (currentIndex < videoIds.length - 1) {
+                currentIndex++;
+                loadVideo(currentIndex);
+            }
+        }
+
+        function updateCounter() {
+            document.getElementById('video-counter').textContent = `${currentIndex + 1}/${videoIds.length}`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+  /* Full screen loading screen */
+  #loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(195, 143, 255, 0.425), rgba(203, 112, 255, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    z-index: 9999;
+    transition: transform 1s ease, opacity 1s ease;
+    backdrop-filter: blur(15px);
+  }
+  
+  /* Main content that is hidden initially */
+  #main-content {
+    display: block;
+    padding: 20px;
+  }
+  
+  /* Animation for the loading screen when it disappears */
+  .hide-loading {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by jeremyssocial */ 
+@keyframes blinkCursor {
+    50% {
+      border-right-color: transparent;
+    }
+  }
+  
+  @keyframes typeAndDelete {
+    0%,
+    10% {
+      width: 0;
+    }
+    45%,
+    55% {
+      width: 6.2em;
+    } /* adjust width based on content */
+    90%,
+    100% {
+      width: 0;
+    }
+  }
+  
+  .terminal-loader {
+    border: 0.1em solid #462547;
+    background-color: #503368;
+    color: rgb(194, 103, 255);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    padding: 1.5em 1em;
+    width: 12em;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  .terminal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.5em;
+    background-color: #916892;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 0 0.4em;
+    box-sizing: border-box;
+  }
+  
+  .terminal-controls {
+    float: right;
+  }
+  
+  .control {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    margin-left: 0.4em;
+    border-radius: 50%;
+    background-color: #777;
+  }
+  
+  .control.close {
+    background-color: rgb(218, 125, 255);
+  }
+  
+  .control.minimize {
+    background-color: rgb(150, 0, 250);
+  }
+  
+  .control.maximize {
+    background-color: rgb(63, 0, 92);
+  }
+  
+  .terminal-title {
+    float: left;
+    line-height: 1.5em;
+    color: #eee;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.2em solid rgb(247, 165, 255); /* Cursor */
+    animation: typeAndDelete 4s steps(11) infinite,
+      blinkCursor 0.5s step-end infinite alternate;
+    margin-top: 1.5em;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+  }
+  

@@ -1,0 +1,159 @@
+/* Main Card Div */
+.cards {
+    flex: 1; cursor: pointer;
+    text-align: center;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 150px;
+    margin: 150px auto 0 auto; /* This centers the element horizontally */
+}
+.cards:hover {
+    flex: 3;
+}
+/* Small Card Div */
+.card1, .card2, .card3 {
+    flex: 1; cursor: pointer;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.card1:hover, .card2:hover, .card3:hover {
+    flex: 1.5;
+}
+
+/* ------ */
+
+.card1:hover .logoGame, .card2:hover .logoGame, .card3:hover .logoGame {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    filter: drop-shadow(0px 0px 20px#000000);
+}
+
+/* ------ */
+
+#Selection1 {
+background-color: #e4a0ff;
+background-image: linear-gradient( #151515, rgba(8, 8, 8, 0.432),#151515), url(/images/Selection1.jpg);
+width: 100%;
+height: 500px;
+background-size: cover;
+background-position: center;
+filter: grayscale(80%);
+transition: 0.5s;
+}
+#Selection2 {
+background-color: #e4a0ff;
+background-image: linear-gradient( #151515, rgba(8, 8, 8, 0.432),#151515), url(/images/Selection2.png);
+width: 100%;
+height: 500px;
+background-size: cover;
+background-position: center;
+filter: grayscale(80%);
+transition: 0.5s;
+}
+#Selection3 {
+background-color: #e4a0ff;
+background-image: linear-gradient( #151515, rgba(8, 8, 8, 0.432),#151515), url(/images/Selection3.jpg);
+width: 100%;
+height: 500px;
+background-size: cover;
+background-position: center;
+filter: grayscale(80%);
+transition: 0.5s;
+}
+
+
+#Selection1:hover, #Selection2:hover, #Selection3:hover {
+filter: grayscale(0%);
+}
+
+.logoGame {
+transition: 0.5s;
+width: 40%;
+}
+h2.Support {
+    margin-bottom: 30px;
+}
+
+a.Space {
+    color: #ffffff;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+a.Space:hover {
+    cursor:default;
+    color: #c077ff;
+    transition: 0.5s;
+    background-color: #282329;
+    padding: 10px 13px;
+    border-radius: 20px;
+    cursor:grab;
+}
+
+
+.notification1 {
+    display: flex;
+    flex-direction: column;
+    isolation: isolate;
+    position: relative;
+    width: 20px;
+    height: 50%;
+    border-radius: 1rem;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    --gradient: linear-gradient(to bottom, #e1c1ff, #c175ff, #e1c1ff);
+    --color: #32a6ff;
+    transition: all 0.5s;
+  }
+  
+  .notification1:after {
+    position: absolute;
+    content: "";
+    width: 0.25rem;
+    inset: 0.65rem auto 0.65rem 0.5rem;
+    border-radius: 0.125rem;
+    background: var(--gradient);
+    transition: transform 300ms ease;
+    z-index: 4;
+  }
+  .cards:hover .notification1 {
+    height: 80%;
+    --gradient: linear-gradient(to bottom, #e1c1ff, hsl(273, 100%, 66%), #e1c1ff);
+    transition: all 0.5s;
+  }
+
+  
+  .notiglow {
+    z-index: 3;
+  }
+  
+  .notiborderglow {
+    z-index: 1;
+  }
+  
+  .notification:hover .notiglow {
+    opacity: 0.1
+  }
+  
+  .notification:hover .notiborderglow {
+    opacity: 0.1
+  }
+  
+  .note {
+    color: var(--color);
+    position: fixed;
+    top: 80%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.9rem;
+  }

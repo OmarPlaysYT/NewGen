@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmarPlays Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .menu {
+            width: 400px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #444;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .menu-header {
+            width: 100%;
+            height: 75px; /* Adjusted height */
+        }
+
+        .menu-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .menu-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+            background-color: #111;
+            font-size: 14px;
+        }
+
+        .menu-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-item {
+            position: relative;
+        }
+
+        .menu-link {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #770077;
+            border-bottom: 1px solid #444;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu-link:hover,
+        .menu-link.active {
+            background-color: #550055;
+        }
+
+        .submenu {
+            display: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+        }
+
+        .submenu .menu-link {
+            padding-left: 20px;
+        }
+
+        .menu-item input[type="checkbox"] {
+            margin: 0;
+        }
+
+        .menu-item label {
+            cursor: pointer;
+            flex-grow: 1;
+        }
+
+        .menu-item input[type="checkbox"] {
+            position: absolute;
+            right: 10px;
+            transform: scale(1.2);
+        }
+
+        .menu-item.active > .submenu {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-header">
+            <a href="https://omarmenu.xyz/">
+                <img class="Logo" src="images/OP_Text.png" alt="OP Logo"></a>
+        </div>
+        <div class="menu-title">
+            <span>OmarPlays Beta</span>
+            <span id="position-counter">1/10</span>
+        </div>
+        <!-- Menus -->
+        <ul class="menu-list" id="main-menu">
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="player-menu">Player</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="network-menu">Network</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="protections-menu">Protections</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="teleport-menu">Teleport</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="weapon-menu">Weapon</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="vehicle-menu">Vehicle</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="spawner-menu">Spawner</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="world-menu">World</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="miscellaneous-menu">Miscellaneous</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="settings-menu">Settings</a></li>
+        </ul>
+        <!-- Player -->
+        <ul class="menu-list submenu" id="player-menu" data-parent="main-menu">
+            <li class="menu-item"><a href="#" class="menu-link" data-submenu="model-menu">Model</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Health</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Animations</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Walk Style</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Run Style</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Movement</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Proofs</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Appearance</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Misc</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Disables</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Particles</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Abilities</a></li>
+            <li class="menu-item">
+                <label for="never-wanted" class="menu-link">Never Wanted<input type="checkbox" id="never-wanted"></label>
+            </li>
+            <li class="menu-item">
+                <label for="six-star" class="menu-link">Six Star Wanted Level<input type="checkbox" id="six-star"></label>
+            </li>
+            <li class="menu-item">
+                <label for="no-ragdoll" class="menu-link">No Ragdoll<input type="checkbox" id="no-ragdoll"></label>
+            </li>
+            <li class="menu-item">
+                <label for="invisibility" class="menu-link">Invisibility<input type="checkbox" id="invisibility"></label>
+            </li>
+            <li class="menu-item"><a href="#" class="menu-link">Suicide</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Clean player</a></li>
+        </ul>
+        <ul class="menu-list submenu" id="model-menu" data-parent="player-menu">
+            <li class="menu-item"><a href="#" class="menu-link">Change Model</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Edit Model</a></li>
+        </ul>
+                <!-- Network -->
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuLinks = document.querySelectorAll('.menu-link');
+            const mainMenu = document.getElementById('main-menu');
+            const positionCounter = document.getElementById('position-counter');
+            let currentMenu = mainMenu;
+            let currentIndex = 0;
+            let usingKeyboard = false;
+
+            menuLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const submenuId = link.getAttribute('data-submenu');
+                    const submenu = document.getElementById(submenuId);
+
+                    if (submenu) {
+                        // Hide all menus
+                        document.querySelectorAll('.menu-list').forEach(menu => {
+                            menu.style.display = 'none';
+                        });
+
+                        // Show the selected submenu
+                        submenu.style.display = 'block';
+                        currentMenu = submenu;
+                        currentIndex = 0;
+                        highlightMenuItem(currentMenu, currentIndex);
+                        updatePositionCounter(currentMenu, currentIndex);
+                    }
+                });
+
+                link.addEventListener('mouseover', () => {
+                    if (!usingKeyboard) {
+                        const parentMenu = link.closest('.menu-list');
+                        currentMenu = parentMenu;
+                        currentIndex = Array.from(parentMenu.children).indexOf(link.closest('.menu-item'));
+                        highlightMenuItem(currentMenu, currentIndex);
+                        updatePositionCounter(currentMenu, currentIndex);
+                    }
+                });
+            });
+
+            // Show the main menu by default
+            mainMenu.style.display = 'block';
+            highlightMenuItem(mainMenu, currentIndex);
+            updatePositionCounter(mainMenu, currentIndex);
+
+            document.addEventListener('keydown', (e) => {
+                usingKeyboard = true;
+                if (e.key === 'ArrowDown') {
+                    currentIndex = (currentIndex + 1) % currentMenu.children.length;
+                    highlightMenuItem(currentMenu, currentIndex);
+                    updatePositionCounter(currentMenu, currentIndex);
+                } else if (e.key === 'ArrowUp') {
+                    currentIndex = (currentIndex - 1 + currentMenu.children.length) % currentMenu.children.length;
+                    highlightMenuItem(currentMenu, currentIndex);
+                    updatePositionCounter(currentMenu, currentIndex);
+                } else if (e.key === 'Enter') {
+                    const selectedLink = currentMenu.children[currentIndex].querySelector('.menu-link');
+                    const submenuId = selectedLink.getAttribute('data-submenu');
+                    const submenu = document.getElementById(submenuId);
+
+                    if (submenu) {
+                        // Hide all menus
+                        document.querySelectorAll('.menu-list').forEach(menu => {
+                            menu.style.display = 'none';
+                        });
+
+                        // Show the selected submenu
+                        submenu.style.display = 'block';
+                        currentMenu = submenu;
+                        currentIndex = 0;
+                        highlightMenuItem(currentMenu, currentIndex);
+                        updatePositionCounter(currentMenu, currentIndex);
+                    }
+                } else if (e.key === 'Backspace') {
+                    if (currentMenu.dataset.parent) {
+                        const parentMenuId = currentMenu.dataset.parent;
+                        const parentMenu = document.getElementById(parentMenuId);
+
+                        if (parentMenu) {
+                            currentMenu.style.display = 'none';
+                            parentMenu.style.display = 'block';
+                            currentMenu = parentMenu;
+                            currentIndex = 0;
+                            highlightMenuItem(currentMenu, currentIndex);
+                            updatePositionCounter(currentMenu, currentIndex);
+                        }
+                    }
+                }
+            });
+
+            function highlightMenuItem(menu, index) {
+                menu.querySelectorAll('.menu-link').forEach((link, i) => {
+                    if (i === index) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+            }
+
+            function updatePositionCounter(menu, index) {
+                positionCounter.textContent = `${index + 1}/${menu.children.length}`;
+            }
+        });
+    </script>
+</body>
+</html>

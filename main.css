@@ -1,0 +1,289 @@
+body {
+    background-color: #151515;
+    margin: 0;
+    padding: 0;
+}
+/*nav {
+    border-radius: 10px;
+    overflow:hidden;
+    scroll-behavior:smooth;
+    text-align: center;
+    .navContainer {
+      height: 80px;
+      section {
+        padding:calc(2em + 0px);
+        a {
+          border:solid 1px transparent;
+          padding:1em;
+        }
+      }
+    }
+  }
+    */
+.Item{
+    font-family: Designer;
+    transition: 0.3s;
+    border-radius: 15px;
+    font-size: large;
+}
+.Item:hover {
+    background-color: rgb(40, 35, 41);
+  }
+
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display:flexbox;
+    align-items: center;
+    justify-content: space-between;
+    gap: 700px;
+}
+/*
+.Logo {
+    width: 120px;
+    cursor: pointer;
+}
+*/
+@font-face {
+  font-family: Designer;
+  src: url(/fonts/Designer.otf);
+}
+@font-face {  
+  font-family: Rage;
+  src: url(/fonts/Road_Rage.otf);
+}
+
+  a.Item:link {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  a.Item:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  a.Item:hover {
+    color: #cf9cff;
+    box-shadow: 10px 10px 10 #cf9cff;
+    background-color: transparent;
+    transition: 0.4s;
+  }
+  a.Item:active {
+    color: #8800ff;
+    background-color: transparent;
+    transition: 0.4s;
+  }
+
+
+  .contentMain{
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(146, 146, 146, 0.3), 0 0 25px rgb(255, 0, 200, 0.8), 0 0 5px rgba(255, 255, 255, 0.8);
+}
+.contentMain h1{
+  position: relative;
+    font-size: 70px;
+    margin-top: 80px;
+}
+.contentMain p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.OmarPlays {
+  font-family: Rage;
+  font-weight: normal;
+}
+
+
+
+/* From Uiverse.io by Sharkotech */ 
+.card {
+  width: 190px;
+  height: 254px;
+  background: rgba(211, 211, 211, 0.199);
+  position: absolute;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  scroll-behavior: smooth;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d2a1ff;
+}
+
+/* Change Text Highlight Color */
+::selection {
+  background-color: #d2a1ff; /* Highlight background color */
+  color: #ffffff; /* Highlighted text color */
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 600px;
+}
+
+.container .slide .item{
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 20px;
+  box-shadow: 0 0px 50px #f2bdff44;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.slide .item:nth-child(1),
+.slide .item:nth-child(2){
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+
+.slide .item:nth-child(3){
+  left: 50%;
+}
+.slide .item:nth-child(4){
+  left: calc(50% + 220px);
+}
+.slide .item:nth-child(5){
+  left: calc(50% + 440px);
+}
+
+/* here n = 0, 1, 2, 3,... */
+.slide .item:nth-child(n + 6){
+  left: calc(50% + 660px);
+  opacity: 0;
+}
+
+
+
+.item .content{
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  width: 300px;
+  text-align: left;
+  color: #eee;
+  transform: translate(0, -50%);
+  font-family: system-ui;
+  display: none;
+}
+
+.slide .item:nth-child(2) .content{
+  display: block;
+}
+
+
+.content .name{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  animation: animate 1s ease-in-out 1 forwards;
+  border-radius: 20px;
+}
+
+.content .des{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.content button{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  animation: animate 1s ease-in-out 0.6s 1 forwards;
+}
+
+
+@keyframes animate {
+  from{
+      opacity: 0;
+      transform: translate(0, 100px);
+      filter: blur(33px);
+  }
+
+  to{
+      opacity: 1;
+      transform: translate(0);
+      filter: blur(0);
+  }
+}
+
+
+
+.button{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.button button{
+  width: 40px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+  border: 1px solid #000;
+  transition: 0.3s;
+}
+
+.button button:hover{
+  background: #ababab;
+  color: #fff;
+}

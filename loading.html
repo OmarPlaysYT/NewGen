@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Loader</title>
+    <style>
+        /* Styles for the loading banner */
+        #loadingBanner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+<div id="loadingBanner">Loading, please wait...</div>
+
+<!-- Your images -->
+<img src="/images/game1.png" alt="Image 1" class="image">
+<img src="/images/game2.png" alt="Image 2" class="image">
+<img src="/images/game3.png" alt="Image 3" class="image">
+
+<script>
+    // Function to check if images are already cached
+    function areImagesCached() {
+        return localStorage.getItem('imagesLoaded') === 'true';
+    }
+
+    // Function to mark images as loaded
+    function setImagesAsLoaded() {
+        localStorage.setItem('imagesLoaded', 'true');
+    }
+
+    // Function to remove the loading banner
+    function removeLoadingBanner() {
+        const banner = document.getElementById('loading-screen');
+        banner.style.display = 'none';
+    }
+
+    // Main function to handle loading banner
+    function handleImageLoading() {
+        // If images are cached, remove banner immediately
+        if (areImagesCached()) {
+            removeLoadingBanner();
+            return;
+        }
+
+        const images = document.querySelectorAll('.image');
+        let imagesLoaded = 0;
+
+        // Check when each image is loaded
+        images.forEach((image) => {
+            if (image.complete) {
+                imagesLoaded++;
+            } else {
+                image.addEventListener('load', () => {
+                    imagesLoaded++;
+                    if (imagesLoaded === images.length) {
+                        setImagesAsLoaded();
+                        removeLoadingBanner();
+                    }
+                });
+
+                image.addEventListener('error', () => {
+                    // Handle image load errors
+                    console.error('Image failed to load.');
+                });
+            }
+        });
+
+        // If all images were already loaded
+        if (imagesLoaded === images.length) {
+            setImagesAsLoaded();
+            removeLoadingBanner();
+        }
+    }
+
+    // Call the function on page load
+    window.addEventListener('DOMContentLoaded', handleImageLoading);
+</script>
+
+</body>
+</html>

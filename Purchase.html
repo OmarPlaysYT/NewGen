@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="OmarPlays,OmarPlays Mod, OmarPlays Menu, OmarPlays Mod Menu, GTA Cheat">
+        <meta name="description" content="Unlock powerful features and dominate with our cutting-edge cheat software, OmarPlays. Easy to install, regularly updated, and designed for elite gamers. Transform your play today!">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="/images/OP_logo.png">
+        <title>OmarPlays - Purchase</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #1c1c1c;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            .product-container {
+                display: flex;
+                background-color: transparent;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .product-image {
+                flex: 1;
+                margin-right: 20px;
+            }
+            .product-image img {
+                width: 70%;
+                transition: transform 0.3s ease;
+                border-radius: 10px;
+                margin-left: 100px;
+            }
+            .product-image img:hover {
+                transform: scale(1.1);
+            }
+            .product-details {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 10px;
+            }
+            .product-name {
+                font-size: 75px;
+                font-weight: bold;
+                text-shadow: 2px 2px 5px #e669ff;
+                text-decoration: underline;
+            }
+            .product-price {
+                font-size: 40px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .switch-container {
+                display: flex;
+                font-size: 25px;
+                align-items: center;
+                margin-bottom: 20px;
+                gap: 30px;
+                font-weight: bold;
+                transition: 0.4s;
+            }
+            .switch-container label {
+                margin-right: -20px;
+            }
+            .Permanent, .Temp {
+                transition: 0.4s;
+            }
+            .Permanent:hover{
+                text-shadow: 2px 2px 5px #e669ff;
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+            .Temp:hover{
+                text-shadow: 2px 2px 5px #e669ff;
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+            .purchase-button, .purchase-button-crypto, .purchase-button-credit-card, .purchase-button-gift-card {
+                padding: 10px 20px;
+                font-size: 18px;
+                color: #fff;
+                background-color: #9900ff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+                transition: 0.4s;
+            }
+            .purchase-button:hover, .purchase-button-crypto:hover, .purchase-button-credit-card:hover, .purchase-button-gift-card:hover {
+                background-color: #e500fa;
+            }
+            /* THIS IS FOR INVALID PAYMENT OPTIONS */
+            .purchase-button-crypto {
+                padding: 10px 20px;
+                font-size: 18px;
+                color: #fff;
+                background-color: #585858;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+                transition: 0.4s;
+            }
+            .purchase-button-crypto:hover {
+                background-color: #292929;
+                cursor: not-allowed;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Banner">
+            <div class="navbar">
+                <a href="https://omarmenu.xyz/">
+                    <img class="Logo" src="images/OP_Text.png" alt="OP Logo">
+                </a>
+                <ul>
+                    <li><a href="https://omarmenu.xyz/">Home</a></li>
+                    <li><a href="https://omarmenu.xyz/Logs">Update Logs</a></li>
+                    <li><a href="https://omarmenu.xyz/Showcases">Showcases</a></li>
+                    <li><a href="https://discord.gg/omarcheats" target="_blank">Discord</a></li>
+                </ul>
+            </div>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="images/Menu1.png" alt="Product Image">
+                </div>
+                <div class="product-details">
+                    <div class="product-name">OmarPlays Mod Menu</div>
+                    <div class="product-price" id="product-price">Price: $12.00 USD</div>
+                    <div class="switch-container">
+                        <label for="type-permanent" class="Permanent">Lifetime</label>
+                        <input type="radio" id="type-permanent" name="type" value="permanent" checked>
+                        <label for="type-30days" class="Temp">30 Days</label>
+                        <input type="radio" id="type-30days" name="type" value="30days">
+                    </div>
+                    <div>
+                    <button class="purchase-button" id="purchase-button">PayPal</button>
+                    <button class="purchase-button-crypto" id="purchase-button-crypto">Crypto</button>
+                    <button class="purchase-button-credit-card" id="purchase-button-credit-card">Credit Card</button>
+                    <a href="https://discord.gg/omarcheats" target="_blank"><button class="purchase-button-gift-card" id="purchase-button-gift-card">Gift Card</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 OmarPlays. All Rights Reserved.</p>
+        </div>
+        <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const priceElement = document.getElementById('product-price');
+    const permanentPrice = 'Price: $12.00 USD';
+    const days30Price = 'Price: $7.50 USD';
+
+    document.getElementById('type-permanent').addEventListener('change', function() {
+        if (this.checked) {
+            priceElement.textContent = permanentPrice;
+        }
+    });
+
+    document.getElementById('type-30days').addEventListener('change', function() {
+        if (this.checked) {
+            priceElement.textContent = days30Price;
+        }
+    });
+
+    document.getElementById('purchase-button').addEventListener('click', function() {
+        const permanentLink = 'https://omarcheats.com/products/omarplays-mod-menu?variant=43638033023148';
+        const days30Link = 'https://omarcheats.com/products/omarplays-mod-menu?variant=43638033055916';
+        const selectedLink = document.getElementById('type-permanent').checked ? permanentLink : days30Link;
+
+        window.open(selectedLink, '_blank');
+    });
+
+    document.getElementById('purchase-button-credit-card').addEventListener('click', function() {
+        const permanentLink = 'https://omarcheats.com/products/omarplays-mod-menu?variant=43638033023148';
+        const days30Link = 'https://omarcheats.com/products/omarplays-mod-menu?variant=43638033055916';
+        const selectedLink = document.getElementById('type-permanent').checked ? permanentLink : days30Link;
+
+        window.open(selectedLink, '_blank');
+    });
+});
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Navigation</title>
+</head>
+<style>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* For large screens: Horizontal Navigation Bar */
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Horizontal layout */
+    gap: 20px;
+}
+
+.nav-items li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center; /* Center the text */
+}
+
+.nav-items li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Hide the "Menu" button initially */
+.nav-toggle {
+    display: none;
+}
+
+/* Responsive Styles: when screen size is smaller than 768px */
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin: 0 auto; /* Center the button */
+    }
+
+    .nav-items {
+        display: none; /* Initially hidden for smaller screens */
+        flex-direction: column; /* Stack the items vertically */
+        width: 100%; /* Take full width */
+        position: absolute;
+        top: 100%; /* Below the button */
+        left: 0;
+        background-color: #333;
+        text-align: center; /* Center the text for smaller screens */
+    }
+
+    .nav-items.show {
+        display: flex; /* Display the menu when in mobile mode */
+    }
+
+    .nav-items li {
+        border-top: 1px solid #444;
+    }
+
+    .nav-items li a {
+        display: block; /* Ensure vertical layout */
+        padding: 15px;
+    }
+}
+
+/* Reset to default when resizing above 768px */
+@media (min-width: 769px) {
+    .nav-items {
+        display: flex !important; /* Force the menu back to horizontal */
+        position: static; /* Normal flow */
+        width: auto;
+    }
+}
+
+</style>
+<body>
+    <div class="navbar">
+        <button class="nav-toggle">Menu</button>
+        <ul class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+    const navItems = document.querySelector('.nav-items');
+    navItems.style.display = (navItems.style.display === 'block') ? 'none' : 'block';
+});
+// Toggling the menu in small screens
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+    const navItems = document.querySelector('.nav-items');
+    navItems.classList.toggle('show'); // Toggle the 'show' class to display/hide the menu
+});
+
+</script>
+</html>

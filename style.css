@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.Banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1), rgba(0,0,0,0.75)), url(images/LargeBG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Grads {
+    width: 1349px;
+    height: 440px;
+    background-image: url(images/grads.png);
+    background-position: center;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo {
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #780096;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+/* First Page 2 Buttons */
+.contentMain{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(146, 146, 146, 0.3), 0 0 25px rgb(255, 0, 200, 0.8), 0 0 5px rgba(255, 255, 255, 0.8);
+}
+.contentMain h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.contentMain p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+/* Last Page 2 Buttons */
+.contentLast{
+    width: 100%;
+    position: inherit;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(146, 146, 146, 0.3), 0 0 25px rgb(255, 0, 200, 0.8), 0 0 5px rgba(255, 255, 255, 0.8);
+}
+.contentLast h2{
+    font-size: 50px;
+    margin-top: 100px;
+}
+/* Paid Page 2 buttons */
+.contentPaid{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(146, 146, 146, 0.3), 0 0 25px rgb(255, 0, 200, 0.8), 0 0 5px rgba(255, 255, 255, 0.8);
+}
+.contentPaid h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+/* Free Page 1 button */
+.contentFree{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(146, 146, 146, 0.3), 0 0 25px rgb(255, 0, 200, 0.8), 0 0 5px rgba(255, 255, 255, 0.8);
+}
+.contentFree h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+/* Showcases Page 1 button */
+.contentShowcases{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(146, 146, 146, 0.3), 0 0 25px rgb(255, 0, 200, 0.8), 0 0 5px rgba(255, 255, 255, 0.8);
+}
+.contentShowcases h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.contentShowcases p{
+    margin-bottom: 10px;
+}
+/* End */
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: large;
+    border: 2px solid #780096;
+    background-color: rgb(94, 0, 202, 0.2);
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 0px 16px 0 rgba(0,0,0,0), 0 0px 20px 0 rgba(0,0,0,0.4);
+}
+span.one{
+    background-color: rgb(255, 0, 200, 0.2);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+button:hover span{
+    width: 100%;
+}
+.LogsBTN{
+    color: black;
+}
+.footer {
+    background-color:transparent;
+    padding: 10px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9em;
+    filter:brightness(0.1);
+    /*
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    */
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+.footer1 {
+    background-color:transparent;
+    padding: 10px 0;
+    text-align: center;
+    color: rgba(233, 63, 255, 0.209);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9em;
+    /*
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    */
+    filter:brightness(0.1);
+}
+.footer1 p {
+    margin: 0;
+    padding: 0;
+}
