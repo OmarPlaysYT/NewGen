@@ -1,0 +1,727 @@
+	Update Log - Version 1.0.0:
+
+//////////////// PAID VERSION: \\\\\\\\\\\\\\\\
+
+1- Player:
+
+- Mouvement
+ - - No Clip
+  - - - Mouse No-Clip
+  - - - Keyboard No-Clip
+ - - Walking Styles
+  - - - 32 Walking Style Options
+ - - Super Jump
+ - - Ultra Jump
+ - - Fast Run
+ - - Super Man
+ - - Reduced Collision
+ - - No Collision
+ - - Midget Mode
+ - - Swin in Air
+ - - Freeze
+- Animations
+ - - Scenarios
+  - - - 38 Scenarios
+ - - Clear Animation
+ - - 79 Animaions
+- Model Changer
+ - - 670 Models
+- Effects
+ - - Dragon Breath
+ - - Lighting
+ - - Clown Effects
+ - - Firework
+ - - Electric
+ - - Water Splash
+- Visions
+ - - 22 Visions
+- Proofs
+ - - Bullet
+ - - Fire
+ - - Explosion
+ - - Collision
+ - - Melee
+ - - Steam
+ - - Drown
+- Parachute
+ - - Use Smoke Trail
+ - - Use Backwards
+ - - Auto Deploy
+- Ride Animals
+ - - Stop Ride
+ - - Ride Deer
+ - - Sit On Deer
+ - - Ride Walking Deer
+ - - Ride Cow
+- Abilities
+ - - Push Vehicles
+ - - Lift Vehicles
+ - - Magnet
+ - - Burn Mode
+ - - Launch Vehicles
+ - - Walk on Air
+- Expressions
+ - - Reset Mood
+ - - 10 Face Expressions
+- Karma
+ - - Basic Karma
+ - - Enable Karma
+ - - Burn Backfire
+ - - Explode Backfire
+- Wardrobe
+ - - Male
+  - - - Modded Outfits
+   - - - - 9 Outfits
+  - - - Reset
+  - - - Reset Outfit
+ - - Female
+  - - - Modded Outfits
+   - - - - 4 Outfits
+  - - - Reset
+  - - - Random Outfit
+ - - Special
+  - - - Male
+   - - - - Rockstar Logo
+   - - - - Gasmask
+   - - - - Badge
+   - - - - Belt
+  - - - Female
+   - - - - Rockstar Logo
+   - - - - Gasmask
+   - - - - Badge
+   - - - - Belt
+ - - Outfit Creator
+  - - - Hats
+  - - - Hats Texture
+  - - - Glasses
+  - - - Glasses Texture
+  - - - Ears
+  - - - Ears Texture
+  - - - Torso Invisible
+  - - - Torso Invisible Texture
+  - - - Torso
+  - - - Torso Texture
+  - - - Legs
+  - - - Legs Texture
+  - - - Parachutes
+  - - - Parachutes Texture
+  - - - Shoes
+  - - - Shoes Texture
+  - - - Special 1
+  - - - Special 1 Texture
+  - - - Special 2
+  - - - Special 2 Texture
+  - - - Special 3
+  - - - Special 3 Texture
+- Godmode
+- Never Wanted
+- No Ragdoll
+- Wanted Level
+- Invisibility
+- Player Alpha
+- Slow Motion
+- Auto Heal
+- Bad Sport
+- Max Health & Armour
+- Max Health
+- Max Armour
+- Clone
+- Clean Player
+- Reset Ped
+- Suicide
+
+2- Weapon:
+
+-Customization
+ - - Rifles
+  - - - Gusenberg
+  - - - Assault Rifle
+  - - - Carbine Rifle
+  - - - Advanced Rifle
+ - - Shotguns
+  - - - Pump Shotgun
+  - - - Bull Pump Shotgun
+  - - - Heavy Shotgun
+ - - Snipers
+  - - - Sniper Rifle
+  - - - Heavy Sniper
+  - - - Marksman Rifle
+ - - Weapon Designs
+  - - - [OPTIONS]
+- Ped Mods
+ - - Ped Swap Gun
+ - - Ped Gun
+- Other
+ - - Dead Eye
+ - - Friendly Fire
+ - - Invisible Weapons
+- Give Weapons
+ - - Give All Arena War Weapons
+ - - Give All Weapons
+ - - Give All MK2 Upgrades
+ - - Give Digiscanner
+ - - Give Fire Extinguisher
+- Effect Gun
+ - - Cartoon Gun
+ - - Clown Appears
+ - - Alien
+ - - Sniper
+ - - Money
+ - - Firework
+ - - Water
+- Take All Weapons
+- Max Ammo
+- Shrink Gun
+- One Shot One Kill
+- Delete Gun
+- Infinite Ammo
+- Rapide Fire
+- Teleport Gun
+- Asteroid Gun
+- Minecraft Gun
+- Rainbow Gun
+- Laser Gun
+- Cat Gun
+- Flame Gun
+- Repair Gun
+- Aimbot
+- Explosive Gun
+- Rhino Gun
+- Hydra Gun
+- Truck Gun
+- Buzzard Gun
+- Drive Gun
+
+3- Vehicle:
+
+- Health
+ - - Repair
+ - - Wash
+ - - Dirty
+ - - Auto Repair
+ - - Auto Wash
+- Movement
+ - - Bypass Max Speed
+ - - Vehicle Jump
+ - - Drive On Water
+- Multipliers
+ - - Power
+ - - Torque
+ - - Acceleration
+ - - Suspension
+- Los Santos Customs
+ - - Lights
+  - - - Rainbow Smoke
+  - - - Rainbow Neon
+ - - Plates
+  - - - White Plate
+  - - - Black Plate
+  - - - Blue Plate
+  - - - White 2 Plate
+  - - - White 3 Plate
+  - - - Yankton Plate
+ - - Respray
+ - - Wheels
+ - - Add Extra Stuff
+ - - Remove Extra Stuff
+- Cargobob
+ - - Spawn
+ - - Attach Magnet
+ - - Detach Magnet
+- Attach Ramps
+ - - Front
+ - - Back
+ - - Left
+ - - Right
+ - - Creat
+ - - Delete
+- Speedometer
+- Vehicle Acrobatics
+- PTFX Vehicle
+- Window
+ - - Remove All
+ - - Roll Down All
+ - - Roll Up All
+- Vehicle Doors
+ - - [OPTIONS]
+- God Mode
+- Auto Flip
+- Rainbow Color
+- Horn Boost
+- Horn Boost Speed
+- Max Upgrades
+- Downgrade
+- Drift Mode
+- Vehicle Alpha
+- Boost Forward
+- Boost Backward
+- Invisible Vehicle
+- Keep Engine On
+- Seatbelt
+- Stick To Ground
+- Scorched Render
+- Set To Earth
+
+4- Spawn:
+
+- Vehicle Spawn
+ - - Spawner Settings
+  - - - SP Bypass
+  - - - Spawn With Godmode
+  - - - Spawn In Car
+  - - - Spawn Maxed
+  - - - Spawn With Blip
+  - - - Spawn In Air
+ - - Manager
+ - - Super
+  - - - 42 Vehicles
+ - - Sports
+  - - - 60 Vehicles
+ - - Sport Classic
+  - - - 37 Vehicles
+ - - Offroad
+  - - - 49 Vehicles
+ - - Sedans
+  - - - 32 Vehicles
+ - - Coupes
+  - - - 15 Vehicles
+ - - Muscle
+  - - - 60 Vehicles
+ - - Boats
+  - - - 21 Vehicles
+ - - Commercial
+  - - - 14 Vehicles
+ - - Compacts
+  - - - 12 Vehicles
+ - - Cycles
+  - - - 7 Vehicles
+ - - Emergency
+  - - - 19 Vehicles
+ - - Helicopters
+  - - - 26 Vehicles
+ - - Industrial
+  - - - 11 Vehicles
+ - - Military
+  - - - 14 Vehicles
+ - - Motorcycles
+  - - - 51 Vehicles
+ - - Planes
+  - - - 34 Vehicles
+ - - Service
+  - - - 12 Vehicles
+ - - SUV
+  - - - 29 Vehicles
+ - - Trailer
+  - - - 25 Vehicles
+ - - Trains
+  - - - 8 Vehicles
+ - - Utility
+  - - - 20 Vehicles
+ - - Vans
+  - - - 32 Vehicles
+ - - Trucks
+  - - - 29 Vehicles
+ - - Bottom Dollar Bounties
+  - - - 21 Vehicles
+- Peds Spawn
+ - - 685 Models
+- Objects Spawn
+ - - 1295 Objects
+- Map Mods
+ - - Maze Bank
+ - - Beach
+ - - Mount Chilliad
+ - - Mega Ramp
+ - - Military
+
+5- Teleport:
+
+- Popular
+- Stores
+- IPLs
+ - - 15 Places
+- Teleport To Coords
+- Waypoint Hotkey
+- Toggle
+- Auto Teleport To Waypoint
+- Teleport Animation
+- Teleport Forward
+- Teleport Upward
+- Teleport To Nearest Vehicle
+- Teleport To Last Vehicle
+- Teleport Personal Vehicle To Me
+
+6- World:
+
+- Drive Train
+ - - Train Speed
+ - - Delete Train
+ - - Spawn Train 1
+ - - Spawn Train 2
+ - - Spawn Train 3
+ - - Spawn Train 4
+- Weather
+ - - 12 Weather Types
+- Time
+ - - Night
+ - - Day
+ - - Hours
+ - - Minutes
+ - - Seconds
+ - - Set Time
+ - - Freeze Time
+ - - Sync With System Time
+- Clouds
+ - - 15 Cloud Types
+- Map Color
+ - - Enable
+ - - Rainbow
+- Water
+ - - Wave Intensity
+ - - Reset Water
+ - - Rain Intensity
+- Gravity
+ - - Mars Gravity
+ - - Moon Gravity
+- Toggle Restricted Areas
+- Show Vehicle Detail
+- Low Graphics
+- Footsteps
+- End Mode
+
+7- Session:
+
+- Players
+ - - {Player Name}
+  - - - Vehicle
+     - - - - Vehicle Godmode
+     - - - - Fix Vehicle
+     - - - - Max Vehicle
+     - - - - Kick From Vehicle
+     - - - - Pop Tires
+     - - - - Slingshot Car
+     - - - - Fuck Handling
+  - - - Peaceful
+     - - - - Give All Weapons
+     - - - - Attach
+     - - - - Detach
+     - - - - Delete Attachments
+     - - - - Copy Outfit
+     - - - - Spawn Bodyguard
+     - - - - Clone Bodyguard
+     - - - - Set Waypoint
+  - - - Attachments
+     - - - - 52 Options
+     - - - - Delete All Objects
+  - - - Quick
+     - - - - Spectate
+     - - - - Teleport To Player
+     - - - - Teleport Into Vehicle
+     - - - - Give All Weapons
+     - - - - Kick From Vehicle
+     - - - - Repair Vehicle
+     - - - - Max Vehicle
+     - - - - Launch Vehicle
+     - - - - Crash Player
+     - - - - Crash Player 2 (beta)
+  - - - Griefing
+     - - - - Explode
+     - - - - Burn
+     - - - - Kick From Vehicle
+     - - - - Cage
+     - - - - Fire Loop
+     - - - - Water Loop
+     - - - - Clone
+     - - - - Send Attacker
+     - - - - Airstrike
+     - - - - Host Kick
+     - - - - Taze
+     - - - - Rocket Kill
+     - - - - Explode Loop
+     - - - - Shake Cam
+     - - - - Control Vehicle
+     - - - - Delete Vehicle
+     - - - - Riot Mode
+     - - - - Entity Crash
+     - - - - Clone Crash
+  - - - ESP
+     - - - - ESP Box
+     - - - - ESP Lines
+     - - - - Name Tag ESP
+  - - - Remote
+     - - - - Host Kick
+     - - - - Kick
+     - - - - Kick V2
+- Casino
+ - - Lucky Wheel
+  - - - 18 Options
+- Host Toolkit
+ - - Desync
+  - - - Block
+  - - - Notify
+ - - Open Extra Slot
+- Players Magnet
+ - - Player Number
+ - - Set Players
+- Anonymous Mode
+- Streamer
+ - - Toggle
+ - - Change R* IDs
+- Show Session Info
+
+8- Protection:
+
+- Anti
+ - - Anti Bountry
+ - - Anti Sound Spam
+ - - Anti Send Job
+ - - Anti Notification
+ - - Anti Freeze
+ - - Anti Explosion
+ - - Anti Sound
+- Danger
+ - - Script Host Kick
+- Block All Script Events
+- Non Host Kicks
+- Force To New Lobby
+- Teleport
+- Infinity Loading
+- Transaction Error
+- Force To Mission
+- Recieve Invites
+- Securoserv Ban
+- Securoserv Kick
+- Stop And Kick From Car
+- Camera Reset
+- GTA Banner Effect
+
+9- Recovery:
+
+- Stats Editor
+ - - Change Stats
+ - - View Stats
+- Rank
+ - - RP Rank
+ - - Crew Rank
+- Unlocks
+- Money
+- Skill Editor
+- Playtime Editor
+- KD Editor
+- Arena Points
+- DLC
+- Misc
+- Make Vehicle Sellable
+- Skip Online Tutorial
+
+10- Miscellaneous:
+
+- Radio
+- Sounds
+- Nearby
+ - - Delete Nearby Vehicles
+ - - Boost Nearby Vehicles
+- Super
+ - - Ghost Rider
+  - - - Spawn
+  - - - Toggle Mode
+ - - Waypoint
+  - - - Explode Waypoint
+  - - - Explode Waypoint
+  - - - Audible
+  - - - Invisible
+  - - - Shake Internsity
+  - - - Type
+- Modded Vehicles
+ - - 42 Modded Vehicles
+- Bodyguard
+ - - 5 Options
+- Emergency
+ - - Tracked Loop
+ - - Is Account Being Tracked
+- Bypass Restricted Areas
+- See Through Walls
+- Meteor Shower
+- Drop Airstrike
+- Destroy Tire Loop
+- Horn Mode
+- Nightvision
+- Thermal Vision
+- Hide HUD
+- Set Max Frame
+- Rockstar Editor
+- Flash Minimap
+- Reset Graphics
+- Repair Vehicles
+- Remove Transaction Loading
+- Skip Cutscene
+- Bail To SIngleplayer
+
+11- Settings:
+
+- Hotkeys
+- Other
+ - - Display  FPS
+- Credits
+- Menu UI
+- Menu Colors
+- Theme Loader
+- Misc Settings
+- Exit Game
+
+//////////////// FREE VERSION: \\\\\\\\\\\\\\\\
+
+1- Player:
+
+- Health
+ - - Godmode
+ - - Heal In Cover
+ - - Max Armor
+ - - Suicide
+- Never Wanted
+- Movement
+ - - Slide Run
+ - - Super Jump
+ - - Ultra Jump
+ - - Walk On Water
+ - - Mouse No-Clip
+ - - Walking No-Clip
+- Outfits
+ - - Random Outfit
+ - - Male Outfits
+ - - Women Outfits
+ - - Outfit Editor
+- Visions
+ - - 15 Visions
+- Animations
+ - - Clear Animation
+ - - 34 Animations
+- Ped Models
+ - - 685 Models
+- Scenarios
+ - - Clear Scenario
+ - - 37 Scenarios
+- Special Ability
+ - - Invisible
+ - - Force
+ - - Fire Breath
+ - - Meteor Shower
+ - - Jump Arround
+ - - Slow Motion
+ - - Vomit
+
+2- Weapon:
+
+- Give All Weapons
+- Give All Weapons V.2
+- Remove All Weapons
+- Rainbow Gun
+- Ammo Type
+ - - Explosive Ammo
+ - - Airstrike Gun
+ - - Infinite Ammo
+ - - Teleport Gun
+ - - Ped Gun
+ - - Shoot To Drive Gun
+ - - Astroid Gun
+
+3- Network:
+
+- Player List
+ - - {Player Name}
+  - - - Teleport Options
+    - - - - Teleport To Player
+    - - - - Teleport Into Player
+  - - - Griefing Options
+    - - - - Kick From Vehicle
+    - - - - Clone
+    - - - - Remove All Weapons
+    - - - - Cage Player
+    - - - - Explode Player
+    - - - - Air Strike Player
+  - - - Peaceful Options
+    - - - - Give All Weapons
+    - - - - Drop Armour
+    - - - - Drop Parachute
+    - - - - Drop Snacks
+  - - - General Options
+    - - - - Copy Outfit
+    - - - - Save Player
+  - - - Spectate Player
+
+4- Teleport:
+
+- Shops
+- IPLs
+- All Action Figures
+- All Playing Cards
+- Teleport To Waypoint
+
+5- Protections:
+
+- Block All
+- Block Invites
+- Control Protection
+- Desync Protection
+- Explosion
+- Freeze
+- Fire
+- Kick Protection
+- Pickup Protection
+- Report Protection
+- Weapon Protection
+- Wanted Protection
+- Stats Protection
+- Spam Sound Protection
+- Particle Protection
+
+6- Vehicle:
+
+- Vehicle Settings
+- Bunch Of Categories,  it's 02:07 AM ;(
+
+7- Weather:
+
+- Environment
+ - - Rain Intensity
+ - - Wind Speed
+ - - Wind Direction
+ - - Wave Intensity
+ - - Gravity
+- Local Time
+ - - Hours
+ - - Minutes
+ - - Seconds
+ - - Set Time
+- Local Weather
+ - - Random Weather
+ - - 12 Weather Options
+
+8- Recovery:
+
+- Unlocks
+- Money
+- Levels
+- AP
+- Content
+- Skip Cutscenes
+- Skip Online Tutorial
+- Allow Gender Changer
+- Redesign Character
+- Bypass Casino Limits
+- Skip Lamar Missions
+- Clear Reports
+
+9- Misc:
+
+- Merry Weather
+- No Phone
+- Mobile Radio
+- Hide HUD
+
+10- Settings:
+- Version
+- UI
+- Credits
+- Discord
+- Unload

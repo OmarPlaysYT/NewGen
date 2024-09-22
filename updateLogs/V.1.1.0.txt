@@ -1,0 +1,79 @@
+	Update Log - Version 1.1.0:
+
+//////////////// PAID VERSION: \\\\\\\\\\\\\\\\
+
+Player 
+- Damage Reduction
+
+Player/Movement
+- Removed Swim in Air
+Player/Effects
+- Vomit Mode
+player/Model Changer
+- Refresh Model
+Miscellaneous
+- Restart Story Mode Progress -- This will Reset Progress
+Recovery/Heist Control
+- Classic Heist
+-- Complete All Setup
+- Cayo Perico Heist
+-- Presets
+--- Solo
+---- Solo Max 
+---- Solo Middle
+-- Quick
+- Teleport
+-- Heist Board
+--- Vault
+---- Primary
+---- Secondary
+----- Office
+------ Front Gate Exit
+- Refresh
+Recovery
+- Modded rolls
+- Clear mental state
+- Change character gender
+- Redesign character
+- Bypass tutorial
+- Fill CEO office with cash
+- Complete Daily Collectibles
+
+Recovery/Unlocks
+- Unlock tattoos
+- Unlock clothing
+- Unlock exclusive
+- Unlock hairstyles
+- Unlock vehicle mods
+- Unlock heists
+- Unlock weapon skins
+- Unlock camos and parachutes
+- Max Account
+- Unlock all bunker research
+Settings/Menu Info
+- Join Discord
+Weapon/Special weapons
+- Dildo
+- Guncase
+- Guitar
+- Garbage Bag
+- Handcuffs
+- Briefcase
+- Railgun
+- Stungun
+- BZ Gas
+- Fire Extinguisher
+- Flare
+- Firework Launcher
+- Musket
+- Snowball
+- Smokegrenade Launcher
+Weapon/Gravity Editor
+- Enable
+- Distance
+Settings/Other/Keys
+- 60% Keyboard
+- info 
+- Update Menu Globals
+- Fixed Bug Found By Dev
+- Removed Crashs Due To being Detected
