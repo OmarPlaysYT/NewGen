@@ -1,0 +1,36 @@
+PLACE THE CHARACTERS SHOWN BELOW ANYWHERE
+IN THE NAMEFIELD OF OUTFIT EDITOR.
+
+
+Special:
+¦        = Rockstar Verified Icon
+‹        = Rockstar Created Icon
+›        = Blank White Icon
+÷        = Rockstar Icon
+∑        = Rockstar Icon #2
+Ω        = lock icon
+~ws~  = Wanted Star
+ 
+ 
+Colors
+~r~        = Red
+~b~        = Blue
+~g~        = Green
+~y~        = Yellow
+~p~        = Purple
+~o~        = Orange
+~c~        = Grey
+~m~        = Dark Grey
+~u~        = Black
+~n~        = Skip Line
+~s~        = White
+~d~        = dark blue
+~f~        = light blue
+~l~        = black
+~t~        = gray
+~v~        = black
+ 
+ 
+Fonts:
+~italic~    =    italic font
+~bold~     =    bold font

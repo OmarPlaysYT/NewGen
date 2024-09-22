@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewort" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="OmarPlays,OmarPlays Mod, OmarPlays Menu, OmarPlays Mod Menu, GTA Cheat">
+        <meta name="description" content="Unlock powerful features and dominate with our cutting-edge cheat software, OmarPlays. Easy to install, regularly updated, and designed for elite gamers. Transform your play today!">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="icon" type="image/x-icon" href="/images/OP_logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <title>OmarPlays - Outfit Editor</title>
+        <!--<script src="https://www.paypal.com/sdk/js?client-id=AfaweCqTU6L-yE952UKbQh25rdGoBGwULS5GKCgKBEEJ2-46AWKskP8F_2HhcrXbSYjvd3jjaf2UKghd   "></script> --> <!-- Replace YOUR_CLIENT_ID with your actual client ID -->
+        <style>
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #151515;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  scroll-behavior: smooth;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d7acff;
+}
+
+
+
+.Grads {
+    width: 1349px;
+    height: 440px;
+    background-image: url(images/grads.png);
+    background-position: center;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo {
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #780096;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.footer {
+    background-color:transparent;
+    padding: 10px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9em;
+    filter:brightness(0.1);
+    /*
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    */
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.GamePic {
+    width: 100px;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    width: 300px;
+    height: 260px;
+
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-box img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+@media (max-width: 768px) {
+    .service-box, .notification {
+        width: 150px; /* Adjust the width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .service-box, .notification {
+        width: 100%; /* Make the service boxes take full width on small screens */
+        height: auto; /* Adjust the height for small screens */
+    }
+}
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+h2 {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.Special {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: 400px;
+    height: 100px;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.Special:hover {
+    background-color: #44038a;
+}
+.Special1 {
+    background-color: #686868;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    width: 350px;
+    height: 80px;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.Special1:hover {
+    background-color: #3b3b3b;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.infoBox {
+    background-color: #2c2c2c; /* Greyish background */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 1); /* Drop shadow */
+}
+
+.infoBox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Larger shadow on hover */
+}
+
+
+.infoBox ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    padding-left: 10px; /* Adjust padding as needed */
+}
+
+.infoBox li {
+    margin: 10px 0;
+}
+
+.infoBox li::before {
+    content: '✔';
+    color: #9500ff; /* Pinkish checkmark */
+    margin-right: 8px;
+}
+.infoTXT {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.infoContainer {
+    align-content: center;
+}
+
+
+/* ------------------------------------- */
+
+/* From Uiverse.io by cssbuttons-io */ 
+.Download {
+ --glow-color: rgb(217, 176, 255);
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(100, 61, 136);
+ border: .25em solid var(--glow-color);
+ padding: 1em 3em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+ cursor: pointer;
+ gap: 20px;
+ z-index: 1;
+}
+.Download::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.Download:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.Download:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+
+
+/* ------------------------------------- */
+
+/* From Uiverse.io by SouravBandyopadhyay */ 
+.notification {
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  position: relative;
+  width: 22rem;
+  height: 10rem;
+  background: #29292c;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  --color: #32a6ff;
+  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #b561ff);
+  text-align: left;
+}
+
+.notification:before, .notification1:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+  background: #18181b;
+  z-index: 2
+}
+
+.notification:after, .notification1:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.notification:hover:after, .notification1:hover::after {
+  transform: translateX(0.15rem)
+}
+
+.notititle {
+  color: var(--color);
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+  font-weight: bolder;
+}
+
+.notification:hover .notititle {
+  transform: translateX(0.15rem)
+}
+
+.notibody {
+  color: #99999d;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notibody {
+  transform: translateX(0.25rem)
+}
+
+.notiglow,
+.notiborderglow {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side at center, white, transparent);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.notiglow {
+  z-index: 3;
+}
+
+.notiborderglow {
+  z-index: 1;
+}
+
+.notification:hover .notiglow {
+  opacity: 0.1
+}
+
+.notification:hover .notiborderglow {
+  opacity: 0.1
+}
+
+.note {
+  color: var(--color);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9rem;
+  width: 75%;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line */
+}
+/* ------------------------------------- */
+a:link {
+  color: #99999d;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.4s;
+}
+a:visited {
+  color: #99999d;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.4s;
+}
+a.gameName:link {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.4s;
+}
+a.gameName:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.4s;
+}
+a.MainTitle {
+  color: #32a6ff;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.4s;
+}
+a.MainTitle:visited {
+  color: #32a6ff;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.4s;
+}
+a:hover, a.gameName:hover, a.MainTitle:hover {
+  color: rgb(207, 156, 255);
+  background-color: transparent;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+a.MainTitle:hover {
+  color: #8dcdff;
+}
+a:active, a.gameName:active, a.MainTitle:active {
+  color: rgb(81, 0, 152);
+  background-color: transparent;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+a.MainTitle:active {
+  color: #004e8a;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="Banner">
+            <div class="navbar">
+                <a href="https://omarmenu.xyz/">
+                     <img class="Logo" src="/images/OP_Text.png" alt="OP Logo"></a>
+                <ul>
+                    <li><a href="https://omarmenu.xyz/">Home</a></li>
+                    <li><a href="https://omarmenu.xyz/Logs">Update Logs</a></li>
+                    <li><a href="https://omarmenu.xyz/Showcases">Showcases</a></li>
+                    <li><a href="https://discord.gg/omarcheats" target="_blank">Discord</a></li>
+                    <li><a href="https://omarmenu.xyz/cheats">Other Cheats</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info"></div>
+            <h1 class="MenuTitle"><a class="gameName" href="https://omarmenu.xyz/cheats/gta5-cheats/">GTA 5</a> ➤ Outfit Editor</h1>
+            <a href="https://github.com/YimMenu/YimMenu/releases/download/nightly/YimMenu.dll" target="_blank"><button class="Download">DOWNLOAD</button></a>
+            <div class="grid">
+                <div class="notification">
+                    <div class="notiglow"></div>
+                    <div class="notiborderglow"></div>
+                    <div class="notititle">General Info:</div>
+                    <div class="notibody"><b>Status:</b> Working</div>
+                    <div class="notibody"><b>Detection:</b> Undetected</div>
+                    <div class="notibody"><b>Version:</b> 2.61</div>
+                    <div class="notibody"><b>Type:</b> Extenal</div>
+                  </div>
+                  <div class="notification">
+                    <div class="notiglow"></div>
+                    <div class="notiborderglow"></div>
+                    <div class="notititle"><a class="MainTitle" href="https://omarmenu.xyz/cheats/gta5-cheats/OutfitEditor/outfits">Outfits:</a></div>
+                    <div class="notibody"><a href="https://omarmenu.xyz/cheats/gta5-cheats/OutfitEditor/outfits/male/">Male Modded Outfits <b>→</b></a></div>
+                    <div class="notibody"><a href="https://omarmenu.xyz/cheats/gta5-cheats/OutfitEditor/outfits/female/">Female Modded Outfits <b>→</b></a></div>
+                    <div class="notibody"><a href="https://discord.gg/cPvHTXD66U">Submit your Outfits <b>→</b></a></div>
+                  </div>
+                  <div class="notification">
+                    <div class="notiglow"></div>
+                    <div class="notiborderglow"></div>
+                    <div class="notititle">Components List:</div>
+                    <div class="notibody"><b>List: </b> <a href="https://max1382.com/clothing-images/home" target="_blank">1<b>→</b></a> - <a href="https://www.bbfas.com/cc/" target="_blank">2<b>→</b></a> - <a href="https://wiki.rage.mp/index.php?title=Clothes" target="_blank">3<b>→</b></a></div>
+                    <div class="notititle">Modded Fit Names:</div>
+                    <div class="notibody"><a href="/cheats/gta5-cheats/OutfitEditor/ModdedOutfitNames.txt" download=""><b>Download List →</b></a> - <a href="/cheats/gta5-cheats/OutfitEditor/ModdedOutfitNames.txt" target="_blank"><b>View on Web →</b></a> </div>
+                </div>
+            </div>
+    </body>
+    <script src="scripts.js"></script>
+</html>
