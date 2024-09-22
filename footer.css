@@ -108,7 +108,10 @@ footer {
 .footer-links a:hover {
     color: #fff;
 }
-
+        @font-face {
+        font-family: Tommy;
+        src: url(/fonts/Tommy.otf);
+        }
 p {
     font-size: 1em;
     color: #ffffff;
