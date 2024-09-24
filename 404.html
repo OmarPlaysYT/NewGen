@@ -11,7 +11,7 @@
         <link rel="icon" type="image/x-icon" href="/images/OP_logo.png">
         <!--Font Awesome CDN-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>OmarPlays - 404</title>
+        <title>OmarPlays - About Us</title>
         <link rel="stylesheet" href="/nav.css">
         <link rel="stylesheet" href="/copy.css">
         <link href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css" rel="stylesheet" />
@@ -29,28 +29,34 @@
         font-family: American;
         src: url(/fonts/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf);
         }
+        @font-face {
+        font-family: Tommy;
+        src: url(/fonts/Tommy.otf);
+        }
 
         h1.CopyrightH1, h2.CopyrightH1, h3.CopyrightH1 {
             font-weight: 100;
             margin-top: 20px;
             transition: 0.5s;
+            text-align: center;
         }
         h1.CopyrightH1 {
+            color: rgb(118, 118, 118);
             font-size: 45px;
             font-family: Designer;
-            text-decoration: underline;
             margin-left: 50px;
         }
         h1.MainTitle{
           font-family: Designer;
           color: white;
           font-weight: 100;
-          font-size: 45px;
+          font-size: 150px;
           text-align: center;
+          text-shadow: 0px 0px 10px rgb(255, 255, 255);
         }
         h2.CopyrightH1 {
             font-size: 20px;
-            font-family: American;
+            font-family:  Tommy;
             color: white;
             margin-left: 20px;
             margin-right: 20px;
@@ -84,8 +90,8 @@
             transition: 0.5s;
             background-color: #282329;
             padding: 10px 13px;
-            border-radius: 20px;
-            cursor:grab;
+            border-radius: 10px;
+            cursor:pointer;
             text-decoration: underline #282329;
         }
 
@@ -399,6 +405,7 @@ footer {
 .footer-column {
     width: 22%;
     margin-bottom: 20px;
+    font-family:  Tommy;
 }
 
 .footer-column h3 {
@@ -420,6 +427,7 @@ footer {
     color: #ddd;
     text-decoration: none;
     transition: 0.4s;
+    font-family:  Tommy;
 }
 
 .footer-column ul li a:hover {
@@ -481,6 +489,7 @@ footer {
 
 .footer-links {
     margin-top: 10px;
+    font-family:  Tommy;
 }
 
 .footer-links a {
@@ -492,7 +501,14 @@ footer {
 .footer-links a:hover {
     color: #fff;
 }
-
+.dropdown-content {
+    font-family:  Tommy;
+}
+p {
+    font-size: 1em;
+    color: #ffffff;
+    font-family: Tommy;
+}
 /* ---------- */
  #login-no {
   cursor: not-allowed;
@@ -538,7 +554,10 @@ footer {
   </ul>
 </div>
 
-<div>404 error</div>
+    <h1 class="MainTitle"><a>404</a></h1>
+
+    <h1 class="CopyrightH1">Seems like you took a wrong turn...</h1>
+    <h2 class="CopyrightH1"><a href="https://omarmenu.xyz/" class="Titles">Head back to the main page ➜</a></h2>
 
     <footer>
       <div class="footer-container">
